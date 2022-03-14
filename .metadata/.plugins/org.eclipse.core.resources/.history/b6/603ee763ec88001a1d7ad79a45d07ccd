@@ -1,0 +1,38 @@
+class Circle{
+	int radius;
+	
+	public Circle(int radius) {
+		this.radius = radius;
+	}
+	
+	public boolean equa(Circle c1) {
+		if(radius == c1.radius) return true;
+		else return false;
+	}
+	//String과 같은 primitive에서는 equals()가 구현되어 있고 class에서도 사용하려면 해당 class내부에 구현이 필요하다.
+	
+	public String toString() {
+		return "Circle(r=" +radius+ ")";
+	}
+	
+}
+
+
+public class CircleTest {
+
+	public static void main(String[] args) {
+		
+		Circle obj1 = new Circle(10);
+		Circle obj2 = new Circle(10);
+		
+		if(obj1.equa(obj2)) System.out.println("2개의 원은 같습니다.");
+		else System.out.println("2개의 원은 같지 않습니다.");
+		
+		System.out.println(obj1);
+		System.out.println(obj2);  //println -> toString 
+		
+		
+	
+	}
+
+}

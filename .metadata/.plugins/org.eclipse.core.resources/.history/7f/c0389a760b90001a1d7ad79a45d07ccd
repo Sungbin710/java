@@ -1,0 +1,33 @@
+
+public class Television {
+	
+	private int channel;
+	private int volume;
+	private boolean onOff;
+	static int num = 0;
+	private int only_num;
+	
+	Television(int c, int v, boolean o){
+		channel = c;
+		volume = v;
+		onOff = o;
+		only_num = ++num;
+	}
+	
+	void print() {
+		System.out.println("채널은" + channel + ", 볼륨은 " + volume + "입니다.");
+		System.out.println("이 TV는 " + only_num + "번째 TV 입니다.");
+	}
+	
+	public static void main(String[] args) {
+
+		Television TV1 = new Television(12,5,true);
+		Television TV2 = new Television(67,9,true);
+		Television TV3 = new Television(5,6,true);
+		Television TV4 = new Television(312,16,true);
+		
+		
+
+		
+	}
+}

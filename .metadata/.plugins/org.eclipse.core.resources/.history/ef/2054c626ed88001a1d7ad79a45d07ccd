@@ -1,0 +1,25 @@
+class num{
+	int a;
+	
+	public num(int a) {
+		this.a = a;
+	}
+}
+
+
+public class Inte {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int i = 10;		
+		num obj = new num(10);
+		
+		if(obj.equals(i))
+			System.out.print("일치");
+		else
+			System.out.print("불일치");
+	
+	}
+
+}

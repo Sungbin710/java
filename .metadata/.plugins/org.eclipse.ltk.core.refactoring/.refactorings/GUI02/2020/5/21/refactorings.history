@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;addButton.java&apos; to &apos;MyFrame.java&apos;&#x0D;&#x0A;- Original project: &apos;GUI2&apos;&#x0D;&#x0A;- Original element: &apos;addButton.java&apos;&#x0D;&#x0A;- Renamed element: &apos;MyFrame.java&apos;" description="Rename compilation unit &apos;addButton.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{addButton.java" name="MyFrame.java" references="false" stamp="1589847799601" version="1.0"/>
+</session>

@@ -1,0 +1,46 @@
+package ee;
+
+class Hangman{
+	
+		String str;
+		String find = "_____";
+		
+		public Hangman(String str) {
+			this.str = str;
+		}
+		
+		public void print() {
+			System.out.println(find);
+		}
+	
+		public String Comp(char c) {
+			
+			for(int i=0;i<this.str.length();i++) {
+				if(str.charAt(i) == c) {
+					char n = c;
+					String s = str.substring(0,i-1) + n + str.substring(i+1,str.length()-1);
+				
+					this.str = s;
+				}	
+				
+			}
+			
+			return str;
+		}
+		
+}
+
+public class Hangman_Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Hangman H = new Hangman("count");
+		
+		H.print();
+	
+		H.Comp('u');
+		H.print();
+	}
+
+}

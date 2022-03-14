@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class LeapYear {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	int number;
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("정수를 입력하시오: ");
+	number = input.nextInt();
+	
+	if(number %2 == 0)
+		System.out.println("짝수 입니다.");
+	else
+		System.out.println("홓수 입니다.");
+	
+	}
+
+}

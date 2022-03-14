@@ -1,0 +1,22 @@
+
+public class StringLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+
+
+			
+		StringBuffer s = new StringBuffer("Happiness depends upon ourselves");
+		
+		StringBuffer sb = new StringBuffer("10+20=");
+		sb.append(10+20);
+		sb.insert(0, "¼ö½Ä ");
+		
+		System.out.println(s);
+		System.out.println(sb);
+	
+	}
+
+}

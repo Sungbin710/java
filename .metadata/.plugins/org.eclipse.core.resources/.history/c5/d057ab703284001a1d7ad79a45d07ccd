@@ -1,0 +1,47 @@
+class Shape{
+	
+	void draw() {
+		System.out.println("draw Shape");
+	}
+}
+
+class Rect extends Shape{
+	
+	void draw() {
+		System.out.println("draw Rect");
+	}
+}
+
+class Circle extends Shape{
+	
+	void draw() {
+		System.out.println("draw Circle");
+	}
+}
+
+class Triangle extends Shape{
+	
+	void draw() {
+		System.out.println("draw Triangle");
+	}
+}
+
+public class ShapeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Shape Obj[] = new Shape[3];
+		Obj[0] = new Rect();
+		Obj[1] = new Circle();
+		Obj[2] = new Triangle();
+		
+		Obj[0].draw();
+		Obj[1].draw();
+		Obj[2].draw();
+		
+	
+		
+	}
+
+}

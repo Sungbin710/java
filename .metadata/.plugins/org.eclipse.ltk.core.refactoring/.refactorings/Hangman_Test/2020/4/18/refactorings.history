@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ee.Hangman&apos; to &apos;Hangman_Test&apos;&#x0D;&#x0A;- Original project: &apos;Hangman_Test&apos;&#x0D;&#x0A;- Original element: &apos;ee.Hangman&apos;&#x0D;&#x0A;- Renamed element: &apos;ee.Hangman_Test&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Hangman&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ee{Hangman.java[Hangman" matchStrategy="1" name="Hangman_Test" qualified="false" references="true" similarDeclarations="true" stamp="1588045913481" textual="false" version="1.0"/>
+</session>

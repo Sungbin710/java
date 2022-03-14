@@ -1,0 +1,44 @@
+
+public class StringLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+			String s = "Hello World!";
+			int size = s.length();
+			System.out.println(size);
+*/			
+/*		
+			String s1 = "Apple";
+			String s2 = "Apple";
+			String s3 = new String("Apple");
+			
+			System.out.println(s1 == s2);	//주소를 비교한 것
+			System.out.println(s1 == s3);
+*/
+/*
+		String s = "The cat is on the table";
+			int index = s.indexOf("table");
+			
+			if(index == -1)
+				System.out.println("table은 없습니다.");
+			else
+				System.out.println("table의 위치: " + index);
+*/
+/*
+		String[] tokens = "I am a boy.".split(" ");
+		for(String token : tokens) {
+			System.out.println(token);
+		}
+*/
+		StringBuffer s = new StringBuffer("Happiness depends upon ourselves");
+		
+		StringBuffer sb = new StringBuffer("10+20 = ");
+		sb.append(10+20);
+		sb.insert(0, "수식 ");
+		
+		System.out.println(s);
+		System.out.println(sb);
+	}
+
+}

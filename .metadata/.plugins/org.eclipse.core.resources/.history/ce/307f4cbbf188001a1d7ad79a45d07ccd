@@ -1,0 +1,20 @@
+
+public class StringLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+			String s = "Hello World!";
+			int size = s.length();
+			System.out.println(size);
+*/			
+			String s1 = "Apple";
+			String s2 = "Apple";
+			String s3 = new String("Apple");
+			
+			System.out.println(s1 == s2);
+			System.out.println(s1 == s3);
+			
+	}
+
+}
